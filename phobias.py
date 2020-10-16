@@ -17,7 +17,7 @@ root = tkinter.Tk()
 root.configure(bg='black')
 root.geometry('700x150')
 
-lbl = tkinter.Label(root, text='Choose fear of: ')
+lbl = tkinter.Label(root, text='Choose phobia: ')
 lbl.place(x=20, y=20)
 lbl.configure(font = ('Courier', 30), bg='black', fg='white')
 
