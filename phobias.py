@@ -1,3 +1,6 @@
+import tkinter
+from tkmacosx import Button #Only for mac. For configuring button.
+
 with open('phobias.txt','r') as fo:
     fc = fo.readlines()
     
@@ -9,9 +12,6 @@ for line in fc:
     phobia.append(line[0])
     phobia_meaning.append(line[1])
     word = line[1].split(' ')[-1]
-
-import tkinter
-from tkmacosx import Button
 
 root = tkinter.Tk()
 root.configure(bg='black')
