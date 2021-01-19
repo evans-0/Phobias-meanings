@@ -1,5 +1,5 @@
 import tkinter
-from tkmacosx import Button #Only for mac. For configuring button.
+#from tkmacosx import Button #Only for mac. For configuring button.
 
 with open('phobias.txt','r') as fo:
     fc = fo.readlines()
