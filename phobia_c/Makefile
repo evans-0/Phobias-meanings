@@ -1,5 +1,5 @@
 phobia: phobia.c
-    gcc `pkg-config --cflags gtk+-3.0` -o phobia phobia.c `pkg-config --libs gtk+-3.0`
+    gcc `pkg-config --cflags --libs gtk+-3.0` phobia.c -o  phobia
     ./phobia
 cleanup:
     rm phobia
